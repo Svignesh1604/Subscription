@@ -170,8 +170,8 @@ body {
       font-size: 30px;
     }
   
-    h2 {
-      font-size: 20px;
+    h2,p {
+      font-size: 18px;
     }
   
     .actions button {
@@ -196,7 +196,9 @@ body {
     .subscription {
       padding: 20px 0;
     }
-  
+  .plans{
+    margin-left: 1px;
+  }
     .plan-card {
       padding: 10px;
     }
