@@ -138,10 +138,89 @@ body {
     width: 100%;
   }
   
+  @media (max-width: 1200px) {
+    .plans {
+      justify-content: space-around;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .plans {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .plan-card {
+      max-width: 90%;
+    }
+  
+    .actions {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .actions button {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 30px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    .actions button {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .plan-card h2 {
+      font-size: 24px;
+    }
+  
+    .plan-card ul {
+      font-size: 16px;
+    }
+  
+    .plan-card .price {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .subscription {
+      padding: 20px 0;
+    }
+  
+    .plan-card {
+      padding: 10px;
+    }
+  
+    .actions button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .plan-card h2 {
+      font-size: 20px;
+    }
+  
+    .plan-card ul {
+      font-size: 14px;
+    }
+  
+    .plan-card .price {
+      font-size: 18px;
+    }
+  }
 
 
-
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .slide{
     height: 300px;
   }
@@ -165,7 +244,7 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   
 h1{
   font-size: 30px;
@@ -187,5 +266,5 @@ h2{
   .plan-card {
     width: 100%;
   }
-}
+} */
   
